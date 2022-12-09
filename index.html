@@ -92,7 +92,14 @@ Ans-const highAge = (N, Arr) =>
 
 
 Q7.Increment the array Element?
-Ans-
+Ans-const Inc_Arr = (array,N) => {
+    for(let i =0;i<N;i++){
+      array[i]+=1;
+    }
+    console.log(...array);
+  };
+   
+  
 
 Q8.Min And Max?
 Ans-function arrayMin(arr) {
@@ -129,6 +136,24 @@ Ans=const isAllPass = (N, Arr) =>
     
   }
 };
+Q10.Birthday Game?
+Ans-function Birthday_Game(arr,D ,M) {
+    let count=0;
+    let sum=0;
+    let n=arr.length;
+    for(i=0;1<n-M+1;i++){
+      for(j=0;j<M;j++){
+        sum=sum+arr[j];
+        
+      }
+      if(sum===D){
+        count++;
+      }
+    }
+    return D;
+  
+  }
+  
    
 </pre>
    
