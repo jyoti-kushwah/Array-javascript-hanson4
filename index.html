@@ -140,8 +140,8 @@ Ans-function Birthday_Game(arr,D ,M) {
     let count=0;
     let sum=0;
     let n=arr.length;
-    for(i=0;1<n-M+1;i++){
-      for(j=0;j<lt><</lt>M;j++){
+    for(i=0;1<lt><</lt>n-M+1;i++){
+      for(j=i;j<lt><</lt>M+i;j++){
         sum=sum+arr[j];
         
       }
@@ -149,7 +149,7 @@ Ans-function Birthday_Game(arr,D ,M) {
         count++;
       }
     }
-    return D;
+    return count;
   
   }
   
